@@ -1,0 +1,139 @@
+body {font-family: 'Poppins', sans-serif;}
+
+
+.formadd {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px 2px #ddd;
+    padding: 2rem;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.alert.success {background-color: #4CAF50;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.submit-type {
+    text-align: center;
+}
+
+.btn {
+    width: 20%;
+    display: inline-block;
+}
+
+.div-icon {
+    margin: 2rem;
+}
+
+ul {
+    margin: 0;
+}
+
+.navbar-left {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.classicon {
+    color: #000000;
+    text-decoration: none;
+}
+
+.classicon:hover {
+    color: #38d39f;
+}
+
+.navbar-right {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.navbar {
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    background-color: #333;
+    overflow: auto;
+}
+
+.classa {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.div-table {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    margin-bottom: 1rem;
+}
+
+thead {
+    background-color: #999;
+    color: #ffffff;
+}
+
+table {
+    box-shadow: 0px 0px 5px 5px #ddd;
+}
+
+th {
+    border: 1px solid #ddd;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+.navbar a:hover {
+    background-color: #38d39f;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #ffffff;
+    float: left;
+    padding: 12px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+        float: none;
+        display: block;
+    }
+}
